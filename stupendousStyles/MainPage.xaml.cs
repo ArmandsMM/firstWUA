@@ -25,6 +25,26 @@ namespace stupendousStyles
         public MainPage()
         {
             this.InitializeComponent();
+            mainContentFrame.Navigate(typeof(DonutPage));
+        }
+        private void DonutsButton_Click(object sender, RoutedEventArgs e)
+        {
+            mainContentFrame.Navigate(typeof(DonutPage));
+        }
+
+        private void CoffeButton_Click(object sender, RoutedEventArgs e)
+        {
+            mainContentFrame.Navigate(typeof(CoffeePage));
+        }
+
+        private void ScheduleButton_Click(object sender, RoutedEventArgs e)
+        {
+            mainContentFrame.Navigate(typeof(ScheduledPage));
+        }
+
+        private void CompleteButton_Click(object sender, RoutedEventArgs e)
+        {
+            mainContentFrame.Navigate(typeof(CompletePage));
         }
     }
 }

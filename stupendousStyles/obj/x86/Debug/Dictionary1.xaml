@@ -11,6 +11,10 @@
         <Setter Property="Height" Value="100"/>
         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
         <Setter Property="Background" Value="Black"/>
+        <Setter Property="VerticalAlignment" Value="Stretch"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
     </Style>
     <Style TargetType="TextBlock" x:Key="navigationButtonTextBlock"> 
         <Setter Property="Foreground" Value="White"/>
@@ -22,7 +26,11 @@
         <Setter Property="Height" Value="25"/>
         <Setter Property="Margin" Value="0,0,10,0"/>
     </Style>
-   
+
+    <Style TargetType="Button" x:Key="flyoutButton">
+        <Setter Property="Background" Value="Chocolate"/>
+        <Setter Property="Foreground" Value="White" />
+    </Style>
 
 </ResourceDictionary>
 

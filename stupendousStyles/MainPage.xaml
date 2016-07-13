@@ -27,17 +27,18 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
 
-        
+
         <Border Style="{StaticResource navigationButtonBorder}" Grid.Column="0">
-                <Button Style="{StaticResource navigationButton}">
-                    <StackPanel Orientation="Horizontal">
+            <Button Style="{StaticResource navigationButton}" Name="DonutsButton" Click="DonutsButton_Click">            
+                <StackPanel Orientation="Horizontal">
                         <Image Source="assets/donut-icon.png" Style="{StaticResource navigationButtonImage}" />
                         <TextBlock Text="Donuts" Style="{StaticResource navigationButtonTextBlock}"/>
                     </StackPanel>
-                </Button>
-            </Border>
-            <Border Style="{StaticResource navigationButtonBorder}" Grid.Column="1">
-                <Button Style="{StaticResource navigationButton}">
+            </Button>
+        </Border>
+
+        <Border Style="{StaticResource navigationButtonBorder}" Grid.Column="1">
+                <Button Style="{StaticResource navigationButton}" Name="CoffeButton" Click="CoffeButton_Click">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="assets/coffee-icon.png" Style="{StaticResource navigationButtonImage}" />
                         <TextBlock Text="Coffee" Style="{StaticResource navigationButtonTextBlock}"/>
@@ -45,7 +46,7 @@
                 </Button>
             </Border>
             <Border Style="{StaticResource navigationButtonBorder}" Grid.Column="2">
-                <Button Style="{StaticResource navigationButton}">
+                <Button Style="{StaticResource navigationButton}" Name="ScheduleButton" Click="ScheduleButton_Click">
                     <StackPanel Orientation="Horizontal">
                         <Image Source="assets/schedule-icon.png" Style="{StaticResource navigationButtonImage}" />
                         <TextBlock Text="Schedule" Style="{StaticResource navigationButtonTextBlock}"/>
@@ -53,7 +54,7 @@
                 </Button>
             </Border>
         <Border Style="{StaticResource navigationButtonBorder}" Grid.Column="3">
-            <Button Style="{StaticResource navigationButton}">
+            <Button Style="{StaticResource navigationButton}" Name="CompleteButton" Click="CompleteButton_Click">
                 <StackPanel Orientation="Horizontal">
                     <Image Source="assets/complete-icon.png" Style="{StaticResource navigationButtonImage}" />
                     <TextBlock Text="Complete" Style="{StaticResource navigationButtonTextBlock}"/>

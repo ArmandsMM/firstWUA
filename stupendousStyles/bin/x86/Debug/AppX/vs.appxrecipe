@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>9e712cff-6c4c-464a-b45a-822a259c5c74</PackageIdentityName>
     <PackageIdentityPublisher>CN=armands.mikanovskis</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-07-11T12:00:44.339</Modified>
+      <Modified>2016-07-13T11:28:34.142</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\bin\x86\Debug\stupendousStyles.exe">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\bin\x86\Debug\stupendousStyles.exe">
       <PackagePath>entrypoint\stupendousStyles.exe</PackagePath>
-      <Modified>2016-07-11T12:00:43.476</Modified>
+      <Modified>2016-07-13T11:28:33.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\armands.mikanovskis\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -448,79 +448,87 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-22T20:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\coffee-icon.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\coffee-icon.png">
       <PackagePath>Assets\coffee-icon.png</PackagePath>
       <Modified>2016-07-11T11:43:22.529</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\complete-icon.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\color-logo.png">
+      <PackagePath>Assets\color-logo.png</PackagePath>
+      <Modified>2016-07-13T08:58:03.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\complete-icon.png">
       <PackagePath>Assets\complete-icon.png</PackagePath>
       <Modified>2016-07-11T11:43:22.516</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\donut-icon.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\donut-icon.png">
       <PackagePath>Assets\donut-icon.png</PackagePath>
       <Modified>2016-07-11T09:41:55.646</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\schedule-icon.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\schedule-icon.png">
       <PackagePath>Assets\schedule-icon.png</PackagePath>
       <Modified>2016-07-11T11:43:22.523</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\white-logo.png">
+      <PackagePath>Assets\white-logo.png</PackagePath>
+      <Modified>2016-07-13T08:03:14.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-20T14:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T14:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T14:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T14:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T14:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T14:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-20T14:20:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\background.jpg">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\background.jpg">
       <PackagePath>Assets\background.jpg</PackagePath>
       <Modified>2016-07-11T11:46:52.449</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-07-11T09:21:40.679</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\bin\x86\Debug\stupendousStyles.xr.xml">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\bin\x86\Debug\stupendousStyles.xr.xml">
       <PackagePath>stupendousStyles.xr.xml</PackagePath>
-      <Modified>2016-07-11T12:00:43.271</Modified>
+      <Modified>2016-07-13T10:46:27.392</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2016-07-11T08:07:45.967</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-07-11T12:00:44.081</Modified>
+      <Modified>2016-07-13T11:28:33.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\documents\visual studio 2015\Projects\stupendousStyles\stupendousStyles\bin\x86\Debug\Core\stupendousStyles.exe">
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\bin\x86\Debug\Core\stupendousStyles.exe">
       <PackagePath>stupendousStyles.exe</PackagePath>
-      <Modified>2016-07-11T12:00:44.313</Modified>
+      <Modified>2016-07-13T11:28:34.135</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

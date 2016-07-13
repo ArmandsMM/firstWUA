@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="stupendousStyles.CoffeePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:stupendousStyles"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionary1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid Background="#3C1F19">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Image Source="assets/white-logo.png" Height="100" Stretch="Uniform" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="10,10,0,0"/>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
+            <Button Name="roastButton" Content="Roast" Margin="10,0,0,0" Style="{StaticResource flyoutButton}">
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <ToggleMenuFlyoutItem Name="roastNone" Text="None" Tapped="roastNone_Tapped"/>
+                        <ToggleMenuFlyoutItem Name="roastDark" Text="Dark" Tapped="roastDark_Tapped"/>
+                        <ToggleMenuFlyoutItem Name="roastMedium" Text="Medium" Tapped="roastMedium_Tapped"/>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
+            <Button Name="sweetenerButton" Content="Sweetener" Margin="10,0,0,0" Style="{StaticResource flyoutButton}">
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <ToggleMenuFlyoutItem Name="sweetenerNone" Text="None" Tapped="sweetenerNone_Tapped"/>
+                        <ToggleMenuFlyoutItem Name="sweetenerSugar" Text="Sugar" Tapped="sweetenerSugar_Tapped"/>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
+            <Button Name="creamButton" Content="Cream" Margin="10,0,0,0" Style="{StaticResource flyoutButton}">
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <ToggleMenuFlyoutItem Name="creamNone" Text="None" Tapped="creamNone_Tapped"/>
+                        <ToggleMenuFlyoutItem Name="cream2PercentMilk" Text="2% milk" Tapped="cream2PercentMilk_Tapped"/>
+                        <ToggleMenuFlyoutItem Name="creamwholeMilk" Text="Whole Milk" Tapped="creamwholeMilk_Tapped"/>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
+        </StackPanel>
+        <TextBlock Grid.Row="2" FontSize="20" Foreground="White" Name="coffeeMixName" Text="Coffee:"/>
+    </Grid>
+</Page>
