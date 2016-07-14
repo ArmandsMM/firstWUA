@@ -16,5 +16,12 @@
 
         <Image Source="assets/color-logo.png" Height="100" Stretch="Uniform" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="10,10,0,0"/>
 
+        <Image Source="assets/ticket.jpg" Grid.Row="1" HorizontalAlignment="Center" Stretch="Uniform" Height="200" Margin="0,20,0,0"/>
+        <StackPanel Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Order"  FontSize="24" HorizontalAlignment="Center" FontWeight="Bold"/>
+            <TextBlock Text="96" FontSize="28" HorizontalAlignment="Center" FontWeight="Bold"/>
+        </StackPanel>
+
+
     </Grid>
 </Page>

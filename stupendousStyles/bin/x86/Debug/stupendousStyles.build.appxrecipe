@@ -382,6 +382,9 @@
     <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\background.jpg">
       <PackagePath>Assets\background.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Assets\ticket.jpg">
+      <PackagePath>Assets\ticket.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\armands.mikanovskis\Documents\Visual Studio 2015\Projects\stupendousStyles\stupendousStyles\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

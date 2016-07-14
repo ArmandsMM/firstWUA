@@ -14,6 +14,12 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
+
         <Image Source="assets/white-logo.png" Height="100" Stretch="Uniform" HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="10,10,0,0"/>
+        <RelativePanel Grid.Row="1">
+            <TextBlock Text="Pickup:" Foreground="White" Name="pickupText" RelativePanel.AlignLeftWithPanel="True"/>
+            <CalendarDatePicker Name="datepicker" RelativePanel.RightOf="pickupText" Margin="10,0,0,0" BorderThickness="2"  PlaceholderText="Select a date"/>
+            <TimePicker Foreground="White" Name="timepicker" Margin="10,20,0,0"  RelativePanel.AlignLeftWith="datepicker" RelativePanel.Below="datepicker" BorderThickness="2"  />
+        </RelativePanel>
     </Grid>
 </Page>
